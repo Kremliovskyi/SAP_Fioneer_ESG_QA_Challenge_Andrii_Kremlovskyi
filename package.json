@@ -8,7 +8,8 @@
     "testChrome": "npx playwright test --project=chromium --headed",
     "updateSnapshots": "npx playwright test --project=chromium --update-snapshots --update-source-method=overwrite",
     "format": "npx prettier . --write",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "installPlaywrightBrowsers": "npx playwright install --with-deps"
   },
   "author": "Andrii Kremlovskyi",
   "license": "MIT",

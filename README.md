@@ -21,24 +21,28 @@ This repository is a test automation framework, designed to demonstrate robust E
 
    `npm install`
 
-2. **Run Tests In All Browsers headless**
+2. **Install Playwright Browsers**
+
+   `npm run installPlaywrightBrowsers`
+
+3. **Run Tests In All Browsers headless**
 
    `npm run test`
 
-3. **Run Tests in Chrome Only and headed mode**
+4. **Run Tests in Chrome Only and headed mode**
 
    `npm run testChrome`
 
-4. **Update Snapshots**
+5. **Update Snapshots**
 
    `npm run updateSnapshots`
 
-5. **View the Latest Test Report**
+6. **View the Latest Test Report**
 
    `npm run report`
 
-6. **Format Code Base (Prettier)**
-7. `npm run format`
+7. **Format Code Base (Prettier)**
+8. `npm run format`
 
 ---
 
