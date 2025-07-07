@@ -1,0 +1,12 @@
+- article:
+    - menu:
+        - listitem:
+            - link "Home":
+                - /url: https://www.sapfioneer.com/
+        - listitem:
+            - link "Finance and ESG":
+                - /url: https://www.sapfioneer.com/finance-esg/
+        - listitem: ESG KPI Engine
+    - heading "Master ESG KPI management" [level=1]
+    - paragraph: SAP Fioneer’s ESG KPI Engine provides a central solution to efficiently collect, review, calculate and store ESG-related single exposure and portfolio data – fast, immediate results anytime through the dashboard. Fully integrated with your architecture, our calculation module provides auditable standard calculations over your entire portfolio to enhance compliance and identify valuable transition opportunities.
+    - figure

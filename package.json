@@ -3,12 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "scripts": {
+    "test": "npx playwright test",
+    "testChrome": "npx playwright test --project=chromium --headed",
+    "updateSnapshots": "npx playwright test --project=chromium --update-snapshots --update-source-method=overwrite",
+    "format": "npx prettier . --write",
+    "report": "npx playwright show-report"
+  },
+  "author": "Andrii Kremlovskyi",
+  "license": "MIT",
+  "dependencies": {
     "@playwright/test": "^1.53.2",
-    "@types/node": "^24.0.10"
+    "@types/node": "^24.0.10",
+    "@eslint/js": "^9.30.1",
+    "@typescript-eslint/eslint-plugin": "^8.35.1",
+    "@typescript-eslint/parser": "^8.35.1",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-playwright": "^2.2.0",
+    "eslint-plugin-unicorn": "^59.0.1",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.35.1"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "paths": {
+      "@pages/*": ["./pages/*"],
+      "@fixtures": ["./fixtures.ts"]
+    }
+  },
+  "include": ["tests"],
+  "exclude": ["node_modules"]
+}
